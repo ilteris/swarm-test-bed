@@ -1,0 +1,14 @@
+graph TD
+    User([User / Sir]) -->|gemini orchestrate| Teddy[Meta-Orchestrator: Teddy]
+    Teddy -->|spawns| Supervisor[Supervisor Actor]
+    Supervisor -->|reads/writes| Blackboard[TODO.md / .tasks/ JSON]
+    Supervisor -->|delegates to| Workers[Worker Actors]
+    
+    subgraph Execution_Isolation [Worker Isolation]
+        Workers -->|clones/isolates| Workspace[tmp/task-ID/]
+        Workspace -->|zmx session| ZMX[Persistent Shell]
+    end
+    
+    Workers -->|Implementation/Verification| Workspace
+    Workers -->|Git Push / PR| Repo[(Git Repository)]
+    Repo -->|triggers review| User

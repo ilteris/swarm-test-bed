@@ -49,4 +49,4 @@
 - [x] 033: Automated Skill Registry Sync
 - [x] 034: Swarm Session Chronicler
 - [x] 035: System Architecture Visualization
-- [ ] 036: Automated PR Capability Test
+- [x] 036: Automated PR Capability Test

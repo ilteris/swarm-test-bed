@@ -1,0 +1,9 @@
+{
+  "id": "036",
+  "title": "Automated PR Capability Test",
+  "status": "in_progress",
+  "priority": "high",
+  "description": "Final end-to-end test of the automated PR url scraper. Create CAPABILITIES.md and submit PR.",
+  "created_at": "2026-02-01T22:15:00Z",
+  "assigned_worker": null
+}

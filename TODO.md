@@ -48,3 +48,5 @@
 - [ ] 032: README Documentation Hardening
 - [x] 033: Automated Skill Registry Sync
 - [x] 034: Swarm Session Chronicler
+- [x] 035: System Architecture Visualization
+- [x] 036: Automated PR Capability Test- [x] 037: Swarm Victory Lap
